@@ -1,0 +1,13 @@
+﻿@model List<PriceBuildCalculate.Domain.Entity.Material>
+@{
+    ViewData["Title"] = "GetMaterials";
+}
+
+@foreach(var material in Model)
+{
+    <p>material.Name</p>
+    <p>material.Capacity</p>
+    <p>material.Id</p>
+    <p>material.Price</p>
+
+}
